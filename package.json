@@ -1,0 +1,21 @@
+{
+  "name": "simple_qr",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/JustinHodge/simple_qr#readme",
+  "bugs": {
+    "url": "https://github.com/JustinHodge/simple_qr/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JustinHodge/simple_qr.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"done\""
+  }
+}
