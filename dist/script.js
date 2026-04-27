@@ -36,3 +36,5 @@ const init = () => {
         .addEventListener('click', generateQR)
 }
 
+init();
+
