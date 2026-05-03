@@ -34,6 +34,20 @@ const init = () => {
 
     generateButton
         .addEventListener('click', generateQR)
+
+    const downloadButton = document.getElementById('download-button');
+    if (!downloadButton) {
+        console.log('download button not found');
+    }
+
+    downloadButton.addEventListener('click', () => {
+        const canvas = document.querySelector('canvas');
+        const dataUrl = canvas.toDataURL('image/png');
+        const link = document.createElement('a');
+        link.href = dataUrl;
+        link.download = 'qrcode.png';
+        link.click();
+    })
 }
 
 init();
